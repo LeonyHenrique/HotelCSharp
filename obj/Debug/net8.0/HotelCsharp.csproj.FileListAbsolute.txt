@@ -1,0 +1,15 @@
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\obj\Debug\net8.0\HotelCsharp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\obj\Debug\net8.0\HotelCsharp.AssemblyInfoInputs.cache
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\obj\Debug\net8.0\HotelCsharp.AssemblyInfo.cs
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\obj\Debug\net8.0\HotelCsharp.csproj.CoreCompileInputs.cache
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\obj\Debug\net8.0\HotelCsharp.sourcelink.json
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\bin\Debug\net8.0\HotelCsharp.exe
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\bin\Debug\net8.0\HotelCsharp.deps.json
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\bin\Debug\net8.0\HotelCsharp.runtimeconfig.json
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\bin\Debug\net8.0\HotelCsharp.dll
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\bin\Debug\net8.0\HotelCsharp.pdb
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\obj\Debug\net8.0\HotelCsharp.dll
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\obj\Debug\net8.0\refint\HotelCsharp.dll
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\obj\Debug\net8.0\HotelCsharp.pdb
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\obj\Debug\net8.0\HotelCsharp.genruntimeconfig.cache
+c:\Users\luany\OneDrive\Área de Trabalho 1\projetos aula desenvolvimento web\HotelCSharp\obj\Debug\net8.0\ref\HotelCsharp.dll

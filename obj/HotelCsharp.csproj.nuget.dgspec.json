@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luany\\OneDrive\\Área de Trabalho 1\\projetos aula desenvolvimento web\\HotelCSharp\\HotelCsharp.csproj": {}
+    "c:\\Users\\luany\\OneDrive\\Área de Trabalho 1\\projetos aula desenvolvimento web\\HotelCSharp\\HotelCsharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luany\\OneDrive\\Área de Trabalho 1\\projetos aula desenvolvimento web\\HotelCSharp\\HotelCsharp.csproj": {
+    "c:\\Users\\luany\\OneDrive\\Área de Trabalho 1\\projetos aula desenvolvimento web\\HotelCSharp\\HotelCsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luany\\OneDrive\\Área de Trabalho 1\\projetos aula desenvolvimento web\\HotelCSharp\\HotelCsharp.csproj",
+        "projectUniqueName": "c:\\Users\\luany\\OneDrive\\Área de Trabalho 1\\projetos aula desenvolvimento web\\HotelCSharp\\HotelCsharp.csproj",
         "projectName": "HotelCsharp",
-        "projectPath": "C:\\Users\\luany\\OneDrive\\Área de Trabalho 1\\projetos aula desenvolvimento web\\HotelCSharp\\HotelCsharp.csproj",
+        "projectPath": "c:\\Users\\luany\\OneDrive\\Área de Trabalho 1\\projetos aula desenvolvimento web\\HotelCSharp\\HotelCsharp.csproj",
         "packagesPath": "C:\\Users\\luany\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luany\\OneDrive\\Área de Trabalho 1\\projetos aula desenvolvimento web\\HotelCSharp\\obj\\",
+        "outputPath": "c:\\Users\\luany\\OneDrive\\Área de Trabalho 1\\projetos aula desenvolvimento web\\HotelCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luany\\AppData\\Roaming\\NuGet\\NuGet.Config"
