@@ -1,7 +1,9 @@
 
+using HotelCSharp.Interfaces;
+
 namespace HotelCSharp.Models
 {
-    public class Camareira : Pessoa
+    public class Camareira : Pessoa, ICamareira
     {
         public Camareira() 
         : base()
@@ -13,9 +15,19 @@ namespace HotelCSharp.Models
         {
         }
 
+        public void ArrumarACama()
+        {
+            System.Console.WriteLine("Sei arrumar a cama");
+        }
+
+        public void LinparOQuarto()
+        {
+            System.Console.WriteLine("Sei Limpar o quarto");
+        }
+
         public override void SeApresentar()
         {
-            throw new NotImplementedException();
+              System.Console.WriteLine("Olá sou a Camareira");
         }
     }
 }

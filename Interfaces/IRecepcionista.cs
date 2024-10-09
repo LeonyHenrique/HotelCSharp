@@ -1,0 +1,10 @@
+
+namespace HotelCSharp.Interfaces
+{
+    public interface IRecepcionista
+    {
+        void AtenderOTelefone();
+
+        void FalarOBasicoDeIngles();
+    }
+}

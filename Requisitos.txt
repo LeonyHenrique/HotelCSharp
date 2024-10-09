@@ -1,8 +1,8 @@
 
 *No hotel é preciso representar o CLiente, o Gerente, a Camareira e a Recepicionista - ok
-*Todas as entidades do tipo pessoa tem que ter, Nome, CPE e Telefone
-*Toda Camareira tem que saber arrumar a cama e limpar o quarto
-*Toda Recepicionista tem que que saber atender atender o telefone e falar o básico de inglês
+*Todas as entidades do tipo pessoa tem que ter, Nome, CPE e Telefone - ok
+*Toda Camareira tem que saber arrumar a cama e limpar o quarto - ok
+*Toda Recepicionista tem que que saber atender atender o telefone e falar o básico de inglês - ok
 *Todo Gerente tem que saber tudo que uma camareira faz e tudo o que uma recepicionista faz
 *Deve ter uma Entidade Hotel.
 *Deve ser possível Promover tanto uma Recepicionista quanto uma Camareira para o cargo de Gerente

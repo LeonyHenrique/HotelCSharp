@@ -1,7 +1,9 @@
 
+using HotelCSharp.Interfaces;
+
 namespace HotelCSharp.Models
 {
-    public class Recepcionista : Pessoa
+    public class Recepcionista : Pessoa, IRecepcionista
     {
          public Recepcionista() 
         : base()
@@ -13,9 +15,19 @@ namespace HotelCSharp.Models
         {
         }
 
+        public void AtenderOTelefone()
+        {
+            System.Console.WriteLine("Sei atender o telefone");
+        }
+
+        public void FalarOBasicoDeIngles()
+        {
+            System.Console.WriteLine("Sei falar o basico de ingles");
+        }
+
         public override void SeApresentar()
         {
-            throw new NotImplementedException();
+           System.Console.WriteLine("Olá, sou a Recepcionista");
         }
     }
 }
