@@ -1,7 +1,7 @@
 
 namespace HotelCSharp.Interfaces
 {
-    public interface IRecepcionista
+    public interface IRecepcionista : IPessoa
     {
         void AtenderOTelefone();
 
