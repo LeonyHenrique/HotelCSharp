@@ -3,7 +3,7 @@ using HotelCSharp.Interfaces;
 
 namespace HotelCSharp.Models
 {
-    public class Gerente : Pessoa, ICamareira, IRecepcionista
+    public class Gerente : Pessoa, IGerente
     {
         public Gerente() 
         : base()
@@ -23,6 +23,11 @@ namespace HotelCSharp.Models
         public void AtenderOTelefone()
         {
             System.Console.WriteLine("Sei atender o telefone pois sou o Gerente");
+        }
+
+        public void ConhecerMuitoBemOHotel()
+        {
+            System.Console.WriteLine("Eu conheço muito bem o hotel.");
         }
 
         public void FalarOBasicoDeIngles()
