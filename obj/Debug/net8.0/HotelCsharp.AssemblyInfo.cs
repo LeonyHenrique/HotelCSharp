@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotelCsharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12b0b9fc6ca7beccbb41a75f4f4f55d7ad28ef45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+268f58a0b6cc1238744e93df9cfb72f3bf20cbf8")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotelCsharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotelCsharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

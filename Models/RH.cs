@@ -1,4 +1,5 @@
 
+using HotelCSharp.Exceptions;
 using HotelCSharp.Interfaces;
 
 namespace HotelCSharp.Models
@@ -28,6 +29,10 @@ namespace HotelCSharp.Models
         public void PromoverParaGerente(Camareira camareira)
         {
            //logica para entrevista
+           if (camareira.CPF == null)
+           {
+            throw new DocumentosInvalidosExceptions ("Regularize  su CPF para receber a promoção ");
+           };
            Hotel.ContratarGerente(new Gerente()
            {
             Nome = camareira.Nome,
@@ -39,6 +44,10 @@ namespace HotelCSharp.Models
         public void PromoverParaGerente(Recepcionista recepcionista)
         {
            //logica para entrevista
+             if (recepcionista.CPF == null)
+           {
+            throw new DocumentosInvalidosExceptions("Regularize  su CPF para receber a promoção ");
+           };
             Hotel.ContratarGerente(new Gerente()
            {
             Nome = recepcionista.Nome,

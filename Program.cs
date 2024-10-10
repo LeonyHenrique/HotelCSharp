@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using HotelCSharp.Exceptions;
 using HotelCSharp.Interfaces;
 using HotelCSharp.Models;
 
@@ -126,7 +127,21 @@ var camareiraASerPromovida = new Camareira
     Nome= "Lucinda"
 
 };
-rh.PromoverParaGerente(camareiraASerPromovida);
+try
+{
+    rh.PromoverParaGerente(camareiraASerPromovida);
+}
+catch (DocumentosInvalidosExceptions ex)
+{
+    //tomar ação pq sei que foi erro de documento
+    System.Console.WriteLine( ex.Message);
+}
+catch (Exception ex)
+{
+    //se cair aqui é pq deu ruim no sistema
+    System.Console.WriteLine(ex.Message);
+}
+
 
 
 //Promover uma recepcionista
@@ -136,7 +151,15 @@ var recepcionistaASerPromovida = new Recepcionista
     CPF= "123154",
 
 };
-rh.PromoverParaGerente(recepcionistaASerPromovida);
+try
+{
+   rh.PromoverParaGerente(recepcionistaASerPromovida);
+}
+catch (DocumentosInvalidosExceptions ex)
+{
+    System.Console.WriteLine( ex.Message);
+}
+
 System.Console.WriteLine();
 
 
