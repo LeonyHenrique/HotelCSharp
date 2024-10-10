@@ -3,6 +3,10 @@
 *Todas as entidades do tipo pessoa tem que ter, Nome, CPE e Telefone - ok
 *Toda Camareira tem que saber arrumar a cama e limpar o quarto - ok
 *Toda Recepicionista tem que que saber atender atender o telefone e falar o básico de inglês - ok
-*Todo Gerente tem que saber tudo que uma camareira faz e tudo o que uma recepicionista faz
-*Deve ter uma Entidade Hotel.
-*Deve ser possível Promover tanto uma Recepicionista quanto uma Camareira para o cargo de Gerente
+*Todo Gerente tem que saber tudo que uma camareira faz e tudo o que uma recepicionista faz - ok 
+*Deve ter uma Entidade Hotel. - ok
+*Criar um serviço de RH 
+  - Deve saber contratar Camareira, Recepicionista, e promover gerentes - ok
+
+*Deve ser possível Promover tanto uma Recepicionista quanto uma Camareira para o cargo de Gerente - ok
+   -

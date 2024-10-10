@@ -100,6 +100,44 @@ foreach (var recepcionista in hotel.Recepcionistas)
     recepcionista.FalarOBasicoDeIngles();
     recepcionista.AtenderOTelefone();
 }
+//Daqui p baixo tudo por conta do RH
+IRHTerceirizado rh =new RH("RH CSharp", hotel);
+
+//Contratar uma camareira
+var camareira3 = new Camareira
+{
+    Nome= "Lucinda"
+};
+
+rh.ContratarCamareira(camareira3);
+
+//Contratar uma recepcionista
+var recepcionista3 = new Recepcionista
+{
+    Nome= "Luciana",
+    CPF= "123154",
+    Telefone="22558822"
+};
+rh.ContratarRecepcionista(recepcionista3);
+
+//Promover uma camareira
+var camareiraASerPromovida = new Camareira
+{
+    Nome= "Lucinda"
+
+};
+rh.PromoverParaGerente(camareiraASerPromovida);
+
+
+//Promover uma recepcionista
+var recepcionistaASerPromovida = new Recepcionista
+{
+    Nome= "Luciana",
+    CPF= "123154",
+
+};
+rh.PromoverParaGerente(recepcionistaASerPromovida);
+System.Console.WriteLine();
 
 
 
