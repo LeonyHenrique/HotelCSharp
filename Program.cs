@@ -159,6 +159,11 @@ catch (DocumentosInvalidosExceptions ex)
 {
     System.Console.WriteLine( ex.Message);
 }
+catch (Exception ex)
+{
+    //se cair aqui é pq deu ruim no sistema
+    System.Console.WriteLine(ex.Message);
+}
 
 System.Console.WriteLine();
 
